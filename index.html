@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Euler 051 - Prime Digit Replacements</title>
     <!-- Load Styles -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- Set Up Header -->
     <header class="container-fluid text-center">
@@ -18,9 +21,14 @@
 
     <!-- Set Up Instructions -->
     <section class="container-fluid instructions">
-        <p>By replacing the 1st digit of the 2-digit number *3, it turns out that six of the nine possible values: 13, 23, 43, 53, 73, and 83 are all prime.</p>
-        <p>By replacing the 3rd and 4th digits of 56**3 with the same digit, this 5-digit number is the first example having seven primes among the ten generated numbers, yielding the family: 56003, 56113, 56333, 56443m 56663, 56773 and 56993.  Consequently 56003, being the first member of this family is the smallest prime with this property.</p>
-        <p>Find the smallest prime which, by replacing part of the number (not necessarily adjacent digits) with the same digit, is part of an n prime value family.  Begin by entering a number.</p>
+        <p>By replacing the 1st digit of the 2-digit number *3, it turns out that six of the nine possible values: 13,
+            23, 43, 53, 73, and 83 are all prime.</p>
+        <p>By replacing the 3rd and 4th digits of 56**3 with the same digit, this 5-digit number is the first example
+            having seven primes among the ten generated numbers, yielding the family: 56003, 56113, 56333, 56443m 56663,
+            56773 and 56993. Consequently 56003, being the first member of this family is the smallest prime with this
+            property.</p>
+        <p>Find the smallest prime which, by replacing part of the number (not necessarily adjacent digits) with the
+            same digit, is part of an n prime value family. Begin by entering a number.</p>
     </section>
 
     <!-- Set Up Form -->
@@ -29,7 +37,9 @@
             <!-- Set Up Label and Input -->
             <article class="mb-3">
                 <label for="mynumber" class="form-label">Number (Required)</label>
-                <input class="form-control" id="mynumber" title="Enter whole number between 2 and 8 (without leading zeros)" placeholder="Enter whole number between 2 and 8 (without leading zeros)">
+                <input class="form-control" id="mynumber"
+                    title="Enter whole number between 2 and 8 (without leading zeros)"
+                    placeholder="Enter whole number between 2 and 8 (without leading zeros)">
             </article>
 
             <!-- Set Up and Center Buttons -->
@@ -46,4 +56,5 @@
         <script src="js/script.js"></script>
     </section>
 </body>
+
 </html>
