@@ -31,26 +31,18 @@
             same digit, is part of an n prime value family. Begin by entering a number.</p>
     </section>
 
-    <!-- Set Up Form -->
+    
     <section class="container-fluid">
-        <form>
-            <!-- Set Up Label and Input -->
-            <article class="mb-3">
-                <label for="mynumber" class="form-label">Number (Required)</label>
-                <input class="form-control" id="mynumber"
-                    title="Enter whole number between 4 and 8 (without leading zeros)"
-                    placeholder="Enter whole number between 4 and 8 (without leading zeros)">
-            </article>
-
+       
             <!-- Set Up and Center Buttons -->
             <article class="d-grid gap-2 d-flex justify-content-center">
                 <button type="button" class="btn btn-info" onclick="getNumberInfo()">Submit</button>
                 <button type="reset" class="btn btn-warning" onclick="clearInfo()">Reset</button>
             </article>
-        </form>
+       
 
-        <!-- Display Number Information -->
-        <p id="numinfo"></p>
+        <!-- Display Solution Information -->
+        <p id="solution"></p>
 
         <!-- Load Script -->
         <script src="js/script.js"></script>
