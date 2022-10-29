@@ -29,7 +29,7 @@ class PrimeSieve {
 };
 
 // Function to Show Solution
-function getNumberInfo() {
+function showSolution() {
     // Set Up Variable
     let txt = "";
     // Apply For Loop
@@ -101,7 +101,7 @@ function primeDigitReplacements(n) {
 
 
 // Function to Hide Solution
-function clearSolution() {
+function hideSolution() {
     let txt = "";
     document.getElementById("solution").innerHTML = txt;
 }
