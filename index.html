@@ -22,5 +22,22 @@
         <p>By replacing the 3rd and 4th digits of 56**3 with the same digit, this 5-digit number is the first example having seven primes among the ten generated numbers, yielding the family: 56003, 56113, 56333, 56443m 56663, 56773 and 56993.  Consequently 56003, being the first member of this family is the smallest prime with this property.</p>
         <p>Find the smallest prime which, by replacing part of the number (not necessarily adjacent digits) with the same digit, is part of an n prime value family.  Begin by entering a number.</p>
     </section>
+
+    <!-- Set Up Form -->
+    <section class="container-fluid">
+        <form>
+            <!-- Set Up Label and Input -->
+            <article class="mb-3">
+                <label for="mynumber" class="form-label">Number (Required)</label>
+                <input class="form-control" id="mynumber" title="Enter whole number between 2 and 8 (without leading zeros)" placeholder="Enter whole number between 2 and 8 (without leading zeros)">
+            </article>
+
+            <!-- Set Up and Center Buttons -->
+            <article class="d-grid gap-2 d-flex justify-content-center">
+                <button type="button" class="btn btn-info" onclick="getNumberInfo()">Submit</button>
+                <button type="reset" class="btn btn-warning" onclick="clearInfo()">Reset</button>
+            </article>
+        </form>
+    </section>
 </body>
 </html>
