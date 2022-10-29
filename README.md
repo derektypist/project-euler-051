@@ -12,7 +12,7 @@ Information at [Project Euler 051](https://projecteuler.net/problem=51)
 
 **Getting Started**
 
-Enter a whole number between 2 and 8 (without leading zeros such as 02) and select the Submit Button.  You will see the number entered as well as the smallest prime in the family, unless you have made an invalid input.  Select the reset button to clear the information or to start again.
+Enter a whole number between 4 and 8 (without leading zeros such as 04) and select the Submit Button.  You will see the number entered as well as the smallest prime in the family, unless you have made an invalid input.  Select the reset button to clear the information or to start again.
 
 **User Stories**
 
@@ -20,8 +20,8 @@ As a user, I expect to get an error message, if I do any of:
 
 - Not enter anything in the input field
 - Entering text other than a number in the input field
-- Entering a number less than 2 or greater than 8
-- Including leading zeros such as 02
+- Entering a number less than 4 or greater than 8
+- Including leading zeros such as 04
 - Entering a number, but it is not an integer
 
 As a user, I expect the function `primeDigitReplacements(6)` to return a number.
@@ -36,7 +36,34 @@ User Stories on function `primeDigitReplacements(n)` taken from [FreeCodeCamp - 
 
 **Information Architecture**
 
-The function `primeDigitReplacements(n)` returns a number, where `n` is a number between 6 and 8.
+The function `primeDigitReplacements(n)` returns a number, where `n` is a number between 4 and 8.
+
+## Features
+
+Allows the user to enter the number of primes requested as well as getting the smallest prime that is part of an n prime value family.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.2 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-051) at the main branch.
+
+## Credits
+
+### Content
+
+`PrimeSieve class` in `script.js` taken from [FreeCodeCamp on GitHub](https://github.com/freeCodeCamp/freeCodeCamp), accessed on 29 October 2022.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
 
 
 
