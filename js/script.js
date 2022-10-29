@@ -34,7 +34,7 @@ function showSolution() {
     let txt = "";
     // Apply For Loop
     for (let i=6;i<=8;i++) {
-      txt += `With ${i} prime value family, smallest prime is ${primeDigitReplacements(i)}.<p>`;
+      txt += `With ${i} prime value family, smallest prime is ${primeDigitReplacements(i)}.<br>`;
     }
 
     // Display Information in the Browser
