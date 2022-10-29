@@ -66,7 +66,12 @@ function primeDigitReplacements(n) {
 
     function doesReplacingMakeFamily(prime, digitToReplace, family) {
         let miss = 0;
-        const base = parseInt(prime.split('').map(digit => digit == digitToReplace ? '0' : digit).join(''));
+        const base = parseInt(
+            prime
+              .split('')
+              .map(digit => digit == digitToReplace ? '0' : digit)
+              .join('')
+          );
         const replacements = parseInt(prime.split('').map(digit => digit === digitToReplace ? '1' : '0').join(''));
         const start = prime[0] === digitToReplace ? 1 : 0;
         for (let i = start; i < 10; i++) {
