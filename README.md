@@ -10,7 +10,19 @@ Information at [Project Euler 051](https://projecteuler.net/problem=51)
 
 ## UX
 
+**Getting Started**
+
+Enter a whole number between 2 and 8 (without leading zeros such as 02) and select the Submit Button.  You will see the number entered as well as the smallest prime in the family, unless you have made an invalid input.  Select the reset button to clear the information or to start again.
+
 **User Stories**
+
+As a user, I expect to get an error message, if I do any of:
+
+- Not enter anything in the input field
+- Entering text other than a number in the input field
+- Entering a number less than 2 or greater than 8
+- Including leading zeros such as 02
+- Entering a number, but it is not an integer
 
 As a user, I expect the function `primeDigitReplacements(6)` to return a number.
 
