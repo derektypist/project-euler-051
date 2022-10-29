@@ -30,11 +30,11 @@ User Stories on function `primeDigitReplacements(n)` taken from [FreeCodeCamp - 
 
 **Information Architecture**
 
-The function `primeDigitReplacements(n)` returns a number, where `n` is a number between 4 and 8.
+The function `primeDigitReplacements(n)` returns a number, where `n` is a number.
 
 ## Features
 
-Allows the user to enter the number of primes requested as well as getting the smallest prime that is part of an n prime value family.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+Allows the user to show or hide the solution to the problem as described in [Project Euler 051](https://projecteuler.net/problem=51).
 
 ## Technologies
 
