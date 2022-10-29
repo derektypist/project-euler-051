@@ -78,7 +78,7 @@ function primeDigitReplacements(n) {
     }
 
     function isPartOfFamily(number, prime) {
-        return primeSieve.isPrime(number) && number.toString().length === prime.length;
+        return (primeSieve.isPrime(number) && number.toString().length === prime.length);
     }
 
     for (let number = 1; number < 125000; number++) {
