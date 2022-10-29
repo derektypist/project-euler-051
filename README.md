@@ -12,17 +12,11 @@ Information at [Project Euler 051](https://projecteuler.net/problem=51)
 
 **Getting Started**
 
-Enter a whole number between 4 and 8 (without leading zeros such as 04) and select the Submit Button.  You will see the number entered as well as the smallest prime in the family, unless you have made an invalid input.  Select the reset button to clear the information or to start again.
+Select the Show Solution button to Show the Solution.  Select the Hide Solution button to Hide the Solution.
 
 **User Stories**
 
-As a user, I expect to get an error message, if I do any of:
-
-- Not enter anything in the input field
-- Entering text other than a number in the input field
-- Entering a number less than 4 or greater than 8
-- Including leading zeros such as 04
-- Entering a number, but it is not an integer
+As a user, I can show or hide the solution by selecting the appropriate button.
 
 As a user, I expect the function `primeDigitReplacements(6)` to return a number.
 
